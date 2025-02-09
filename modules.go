@@ -24,6 +24,10 @@ import (
 	"sync"
 )
 
+import (
+	_ "github.com/Abzwingten/caddy/modules/caddy-vault-tls"
+)
+
 // Module is a type that is used as a Caddy module. In
 // addition to this interface, most modules will implement
 // some interface expected by their host module in order
