@@ -5,7 +5,7 @@ import (
     "crypto/tls"
     "fmt"
 
-    "github.com/caddyserver/caddy/v2/modules/caddy-tls"
+    "github.com/caddyserver/caddy/v2/modules/caddytls"
     "github.com/hashicorp/vault/api"
 )
 
